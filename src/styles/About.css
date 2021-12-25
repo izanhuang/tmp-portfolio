@@ -1,14 +1,14 @@
+#aboutContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 .about {
   height: auto;
   width: 750px;
   margin: auto;
   position: relative;
-}
-
-#aboutContainer {
-  height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 .techs {

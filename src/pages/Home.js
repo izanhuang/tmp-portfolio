@@ -1,7 +1,8 @@
 import React from 'react'
 import { useNav } from '../customHooks/useNav'
 import './Page.css'
-import '../styles/Intro.css'
+import '../styles/Home.css'
+import img from '../assets/web-dev.svg'
 
 const Home = () => {
   const homeRef = useNav('Home')
@@ -16,9 +17,13 @@ const Home = () => {
             I'm a full stack developer specializing in front end technologies
             with experience in creating prototypes.
           </p>
-          <button className="white-button">Check out my projects!</button>
+          <button className="white-button intro-button">
+            Check out my projects!
+          </button>
         </div>
-        <div className="intro-image"></div>
+        <div className="image">
+          <img src={img} />
+        </div>
       </div>
     </section>
   )

@@ -1,12 +1,31 @@
 nav {
   width: 100%;
-  position: fixed;
+  position: sticky;
   z-index: 10;
   top: 0;
-  padding: 1.2em 0;
+  left: 0;
+  padding: 2.5em 3em;
   color: white;
-  background-color: transparent;
+  background-color: #5460cd;
   max-height: 4em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* box-shadow: 0 2px 2px -2px rgba(0,0,0,.2); */
+}
+
+@media only screen and (max-width: 973px) {
+  nav span {
+    display: none;
+  }
+  .logo span {
+    display: block;
+    margin: 0 !important;
+  }
+  .resume-button {
+    display: none;
+  }
 }
 
 nav span {
@@ -16,6 +35,7 @@ nav span {
   transition-delay: 0.25s;
   margin: 1em;
   padding-bottom: 0.3em;
+  margin-right: 2.75em;
 }
 
 nav span:hover {
@@ -35,13 +55,16 @@ nav span.activeClass {
   border-bottom-color: var(--lightAccent);
 }
 
-.logo {
+.logo span {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
   transition: none !important;
 }
-.logo:hover {
+
+.logo span:hover {
   border: none !important;
 }
 
-.logo.activeClass {
+.logo span.activeClass {
   border: none !important;
 }

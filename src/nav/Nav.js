@@ -6,16 +6,22 @@ import './Nav.css'
 const Nav = () => {
   return (
     <nav>
-      <NavLink
-        className="logo"
-        navLinkId="IH"
-        scrollToId="homeContainer"
-      ></NavLink>
-      {navLinks.map(({ navLinkId, scrollToId }, idx) => (
-        <NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} />
-      ))}
-
-      <button>Resume</button>
+      <div className="logo">
+        <NavLink navLinkId="IH" scrollToId="homeContainer" />
+      </div>
+      <div>
+        {navLinks.map(({ navLinkId, scrollToId }, idx) => (
+          <NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} />
+        ))}
+        <button
+          className="white-button resume-button"
+          onClick={() => {
+            window.open('https://www.google.com/')
+          }}
+        >
+          Resume
+        </button>
+      </div>
     </nav>
   )
 }

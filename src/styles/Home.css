@@ -1,0 +1,103 @@
+.intro-container {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../assets/wave.svg');
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.intro-text {
+  width: 40%;
+  min-width: 300px;
+  height: auto;
+  padding-right: 6%;
+  margin-left: 7%;
+  font-style: normal;
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+/* @media only screen and (max-width: 1703px) {
+  .intro-text {
+    padding: 0;
+    width: 50%;
+  }
+  .image {
+    margin-right: 6%;
+  }
+} */
+
+@media only screen and (min-width: 852px) {
+  .intro-text {
+    margin: 6% 5% 0% 5%;
+  }
+
+  .image img {
+    margin: 15% 5% 0% 5%;
+  }
+}
+
+@media only screen and (max-width: 1362px) {
+  .intro-text {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1152px) {
+  .intro-text {
+    padding-right: 0;
+  }
+  /* .intro-text {
+    width: 90%;
+  } */
+  .image img {
+    margin: 50% 5% 0% 5%;
+  }
+}
+
+@media only screen and (max-width: 852px) {
+  .intro-container {
+    flex-wrap: wrap;
+  }
+
+  .intro-text {
+    padding-right: 0;
+    width: 100%;
+    margin: 0% 5% 0% 5%;
+  }
+  .image img {
+    margin: 0;
+  }
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-size: 80px;
+}
+
+.name-subtitle {
+  font-size: 32px;
+  margin: 18px 0;
+}
+
+.name-subtitle-sub {
+  margin-bottom: 30px;
+}
+
+.intro-button {
+  padding: 13.5px 30px;
+}
+
+.image {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}

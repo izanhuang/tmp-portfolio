@@ -25,7 +25,11 @@ const Nav = () => {
   return (
     <nav>
       <div className="logo">
-        <NavLink navLinkId="IH" scrollToId="homeContainer" />
+        <NavLink
+          navLinkId="IH"
+          scrollToId="homeContainer"
+          navLinkToggle={navLinkToggle}
+        />
       </div>
       <div className={'sections' + (navLinkOpen ? ' hamburger-active' : '')}>
         {navLinks.map(({ navLinkId, scrollToId }, idx) => (

@@ -10,14 +10,6 @@ const About = () => {
 
   return (
     <section ref={aboutRef} id="aboutContainer">
-      {/* <img
-        src="https://source.unsplash.com/random/600x600/?nature,water"
-        alt="unsplash-img"
-      />
-      <div>
-        <h3>ABOUT</h3>
-        <p>This is the about section</p>
-      </div> */}
       <div className="about section-container">
         <img className="circle" id="purpleCircle" src={purpleCircle} />
         <p className="section-title">About Me</p>

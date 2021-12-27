@@ -1,14 +1,5 @@
-#aboutContainer {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
 .about {
-  height: auto;
   width: 750px;
-  margin: auto;
-  position: relative;
 }
 
 .techs {
@@ -16,10 +7,6 @@
   float: left;
   column-count: 2;
   margin-top: 0;
-}
-
-.techs li {
-  line-height: 22px;
 }
 
 .circle {

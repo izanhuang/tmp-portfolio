@@ -4,7 +4,7 @@ import { navLinks } from './navLinks'
 import './Nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/fontawesome-free-solid'
-import resume from '../assets/IzanHuangResume.pdf'
+import resume from '../assets/resume.pdf'
 
 const Nav = () => {
   const [navLinkOpen, navLinkToggle] = useState(false)

@@ -3,7 +3,10 @@ import { useNav } from '../customHooks/useNav'
 import './Page.css'
 import '../styles/Projects.css'
 import { Carousel, CarouselItem } from 'react-bootstrap'
-import webDev from '../assets/web-dev.svg'
+import clock from '../assets/clock.svg'
+import calculator from '../assets/calculator.svg'
+import voting from '../assets/voting.svg'
+import food from '../assets/food.svg'
 
 const Project = () => {
   const projectsRef = useNav('Projects')
@@ -30,7 +33,7 @@ const Project = () => {
               </button>
             </div>
             <div>
-              <img className="custom-w-50" src={webDev} alt="First slide" />
+              <img className="custom-w-50" src={clock} alt="Second slide" />
             </div>
           </Carousel.Item>
           <Carousel.Item className="project-flex">
@@ -48,12 +51,12 @@ const Project = () => {
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={webDev} alt="First slide" />
+            <img className="custom-w-50" src={calculator} alt="Third slide" />
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
-              <p className="project-title">Food with Friends</p>
-              <p className="project-desc">Java, Firebase</p>
+              <p className="project-title">SBU Voting</p>
+              <p className="project-desc">ReactJS, CSS</p>
               <button
                 className="colored-button"
                 onClick={() => {
@@ -65,7 +68,24 @@ const Project = () => {
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={webDev} alt="First slide" />
+            <img className="custom-w-50" src={voting} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item className="project-flex">
+            <div className="project-flex-left custom-w-50">
+              <p className="project-title">Food with Friends</p>
+              <p className="project-desc">Java, Firebase</p>
+              <button
+                className="colored-button"
+                onClick={() => {
+                  window.open(
+                    'https://play.google.com/store/apps/details?id=com.hackhealth.foodwithfriends',
+                  )
+                }}
+              >
+                View Project
+              </button>
+            </div>
+            <img className="custom-w-50" src={food} alt="First slide" />
           </Carousel.Item>
         </Carousel>
       </div>

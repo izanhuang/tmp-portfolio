@@ -17,7 +17,8 @@
 
 .carousel-item {
   border-radius: 34px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 30px 45px 0px rgba(130, 136, 171, 0.1);
 }
 
 .project-flex-left {
@@ -39,7 +40,7 @@
 
 .project-desc {
   font-size: 16px;
-  color: var(--grayAccent);
+  color: #565656;
 }
 
 .project-flex button {

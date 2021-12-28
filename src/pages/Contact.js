@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useNav } from '../customHooks/useNav'
 import './Page.css'
 import '../styles/Contact.css'
 import { FloatingLabel, Form } from 'react-bootstrap'
-import shapes from '../assets/shapes.svg'
+import { FaGithubSquare, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 const Contact = () => {
   const contactRef = useNav('Contact')
@@ -12,19 +12,31 @@ const Contact = () => {
     <section ref={contactRef} id="contactContainer">
       <div className="contact section-container">
         <p className="section-title">Contact Me</p>
-        <div>Icons</div>
+        <div className="icons">
+          <FaGithubSquare
+            onClick={() => {
+              window.open('https://github.com/izanhuang')
+            }}
+          />
+          <FaLinkedin
+            onClick={() => {
+              window.open('https://www.linkedin.com/in/izanhuang/')
+            }}
+          />
+          <FaEnvelope
+            onClick={() => {
+              window.open('mailto:huang.izan@gmail.com')
+            }}
+          />
+        </div>
         <div id="form">
           <form
             id="form-id"
-            class="form-class pageclip-form"
+            className="form-class pageclip-form"
             method="post"
             action="https://getform.io/f/eba73395-b64b-4139-9638-f6c42345d76c"
           >
-            <FloatingLabel
-              controlId="floatingInput"
-              label="Name"
-              className="mb-3"
-            >
+            <FloatingLabel label="Name" className="mb-3">
               <Form.Control
                 type="text"
                 placeholder="Name"
@@ -34,11 +46,7 @@ const Contact = () => {
               />
             </FloatingLabel>
 
-            <FloatingLabel
-              controlId="floatingInput"
-              label="Email"
-              className="mb-3"
-            >
+            <FloatingLabel label="Email" className="mb-3">
               <Form.Control
                 type="email"
                 placeholder="Email"
@@ -48,18 +56,14 @@ const Contact = () => {
               />
             </FloatingLabel>
 
-            <FloatingLabel
-              controlId="floatingTextarea"
-              label="Message"
-              className="mb-3"
-            >
+            <FloatingLabel label="Message" className="mb-3">
               <Form.Control
                 as="textarea"
                 placeholder="Message"
                 style={{ height: '200px' }}
                 id="Message"
                 name="message"
-                maxlength="3000"
+                maxLength="3000"
                 required
               />
             </FloatingLabel>
@@ -67,7 +71,7 @@ const Contact = () => {
             <button
               type="submit"
               id="button"
-              class="button button-primary button-lg button-block"
+              className="button button-primary button-lg button-block"
             >
               Send
             </button>
@@ -81,7 +85,7 @@ const Contact = () => {
         >
           Designed
         </a>{' '}
-        and Built By Izan Huang
+        and Built by Izan Huang
       </footer>
     </section>
   )

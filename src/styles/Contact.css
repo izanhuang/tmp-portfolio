@@ -7,6 +7,24 @@
   width: 500px;
 }
 
+.icons {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 100px;
+}
+
+.icons svg {
+  font-size: 50px;
+  color: var(--mainAccent);
+  cursor: pointer;
+  line-height: 5em;
+}
+
+.icons svg:hover {
+  transform: translateY(-2.5px) scale(1.05);
+}
+
 #form {
   display: block;
 }
@@ -23,13 +41,13 @@
 
 #form::before {
   left: -220px;
-  top: 250px;
+  top: 345px;
   transform: rotate(-90deg);
 }
 
 #form::after {
   right: -220px;
-  top: 250px;
+  top: 345px;
   transform: rotate(90deg);
 }
 

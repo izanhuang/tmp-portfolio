@@ -76,5 +76,5 @@ button:hover {
   background-color: var(--mainAccent);
   border: 1px solid var(--mainAccent);
   color: var(--lightAccent);
-  border-radius: 34px !important;
+  border-radius: 42px !important;
 }

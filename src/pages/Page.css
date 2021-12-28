@@ -44,6 +44,9 @@ section {
     padding-right: 15px;
   }
 
+  .carousel-item {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1) !important;
+  }
   .custom-w-50 {
     width: 100% !important;
   }
@@ -62,6 +65,10 @@ section {
   }
   .project-flex button {
     margin-top: 0% !important;
+  }
+
+  .icons {
+    padding: 18px 50px !important;
   }
 }
 

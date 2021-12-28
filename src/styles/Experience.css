@@ -25,13 +25,13 @@
   background-color: rgba(230, 230, 230, 0.37);
   border-left: 2px solid #cacaca !important;
   box-sizing: border-box;
-  color: #000;
+  color: #565656 !important;
+  cursor: pointer;
 }
 
 .nav-item a.active {
   background-color: rgba(230, 230, 230, 0.37) !important;
-  border-left: 2px solid #4754c9 !important;
-  background-color: rgba(230, 230, 230, 0.37) !important;
+  border-left: 2px solid var(--mainAccent) !important;
   color: var(--mainAccent) !important;
 }
 

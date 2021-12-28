@@ -4,6 +4,7 @@ import { navLinks } from './navLinks'
 import './Nav.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/fontawesome-free-solid'
+import resume from '../assets/IzanHuangResume.pdf'
 
 const Nav = () => {
   const [navLinkOpen, navLinkToggle] = useState(false)
@@ -40,14 +41,9 @@ const Nav = () => {
             navLinkToggle={navLinkToggle}
           />
         ))}
-        <button
-          className="white-button resume-button"
-          onClick={() => {
-            window.open('https://www.google.com/')
-          }}
-        >
-          Resume
-        </button>
+        <a href={resume} download="IzanHuangResume.pdf">
+          <button className="white-button resume-button">Resume</button>
+        </a>
       </div>
       <div className="hamburger-toggle" onClick={handleNavLinksToggle}>
         <FontAwesomeIcon icon={faBars} />

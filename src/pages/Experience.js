@@ -2,14 +2,7 @@ import React from 'react'
 import { useNav } from '../customHooks/useNav'
 import './Page.css'
 import '../styles/Experience.css'
-// import Nav from 'react-bootstrap/Nav'
-// import Row from 'react-bootstrap/Nav'
-// import Col from 'react-bootstrap/Nav'
-import Sonnet from 'react-bootstrap/Tabs'
-// import Tab from 'react-bootstrap/Tabs'
-// import Tabs from 'react-bootstrap/Tabs'
-// import NavItem from 'react-bootstrap/Nav'
-import { Tab, Row, Col, Nav, NavItem } from 'react-bootstrap'
+import { Tab, Row, Col, Nav } from 'react-bootstrap'
 
 const Experience = () => {
   const experienceRef = useNav('Experience')

@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useNav } from '../customHooks/useNav'
 import './Page.css'
 import '../styles/Home.css'
 import img from '../assets/web-dev.svg'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 const Home = () => {
   const homeRef = useNav('Home')
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="intro-container">
         <div className="intro-text">
           <p>Hi, my name is</p>
+
           <span className="name">Izan Huang.</span>
           <p className="name-subtitle">I design and build simple things.</p>
           <p className="name-subtitle-sub">

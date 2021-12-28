@@ -13,16 +13,6 @@ const Nav = () => {
     navLinkToggle(!navLinkOpen)
   }
 
-  // const renderClasses = () => {
-  //   let classes = 'sections'
-
-  //   if (navLinkOpen) {
-  //     classes += ' hamburger-active'
-  //   }
-
-  //   return classes
-  // }
-
   return (
     <nav>
       <div className="logo">

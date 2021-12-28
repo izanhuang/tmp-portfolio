@@ -17,7 +17,14 @@ const Home = () => {
             I'm a full stack developer specializing in front end technologies
             with experience in creating prototypes.
           </p>
-          <button className="white-button intro-button">
+          <button
+            className="white-button intro-button"
+            onClick={() => {
+              document
+                .getElementById('projectsContainer')
+                .scrollIntoView({ behavior: 'smooth' })
+            }}
+          >
             Check out my projects!
           </button>
         </div>

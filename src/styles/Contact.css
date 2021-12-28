@@ -1,0 +1,147 @@
+#contactContainer {
+  background-image: url('../assets/shapes.svg');
+  background-repeat: no-repeat;
+}
+
+.contact {
+  width: 500px;
+}
+
+#form {
+  display: block;
+}
+
+#form::before,
+#form::after {
+  content: 'Let\0027s get in touch!';
+  display: inline-flex;
+  position: absolute;
+  text-align: center;
+  font-family: Playfair Display;
+  font-size: 36px;
+}
+
+#form::before {
+  left: -220px;
+  top: 250px;
+  transform: rotate(-90deg);
+}
+
+#form::after {
+  right: -220px;
+  top: 250px;
+  transform: rotate(90deg);
+}
+
+#form input,
+#form textarea,
+#form button {
+  border-radius: 34px;
+  border: 1px solid var(--mainAccent);
+}
+
+.form-floating > .form-control {
+  padding: 1rem 2rem 0rem 1.75rem !important;
+}
+
+#Message {
+  padding: 2rem 1.765rem !important;
+}
+
+.form-floating > label {
+  top: 4.1px !important;
+  padding: 1rem 2rem 0rem 1.75rem !important;
+}
+
+textarea {
+  padding-top: 2rem !important;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button {
+    transition: none;
+  }
+}
+
+.button:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.button:focus,
+.button.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.button-primary {
+  color: #fff;
+  background-color: var(--mainAccent);
+  font-size: 18px;
+}
+
+.button-primary:hover {
+  color: #fff;
+  transform: scale(1.015) !important;
+}
+
+/* .button-primary:focus,
+.button-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0;
+} */
+
+.button-lg,
+.button-group-lg > .button {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.button-block + .button-block {
+  margin-top: 0.5rem;
+}
+
+input[type='submit'].button-block,
+input[type='reset'].button-block,
+input[type='button'].button-block {
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .main {
+    margin: auto;
+  }
+  .body {
+    margin: 0;
+  }
+  .form {
+    margin: 0;
+  }
+}
+
+a {
+  color: var(--mainAccent) !important;
+}

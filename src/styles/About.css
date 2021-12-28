@@ -11,9 +11,21 @@
 
 .circle {
   position: absolute;
+  animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
 }
 
 #purpleCircle {
   top: -45px;
   left: -175px;
+  animation: floating 3s ease-in-out infinite;
 }

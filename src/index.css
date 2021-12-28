@@ -3,6 +3,7 @@
 :root {
   --darkAccent: #2f2e41;
   --mainAccent: #4754c9;
+  --grayAccent: #c6c6c6;
   --lightAccent: #ffffff;
 }
 
@@ -54,21 +55,26 @@ button {
 }
 
 button {
-  border-radius: 34px;
   text-align: center;
   padding: 10px 18px;
   box-sizing: border-box;
   cursor: pointer;
 }
 
+button:hover {
+  transform: scale(1.05);
+}
+
 .white-button {
   background-color: var(--lightAccent);
   border: 1px solid var(--mainAccent);
   color: var(--mainAccent);
+  border-radius: 34px !important;
 }
 
 .colored-button {
   background-color: var(--mainAccent);
   border: 1px solid var(--mainAccent);
   color: var(--lightAccent);
+  border-radius: 34px !important;
 }

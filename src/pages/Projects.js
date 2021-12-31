@@ -7,6 +7,7 @@ import clock from '../assets/clock.svg'
 import calculator from '../assets/calculator.svg'
 import voting from '../assets/voting.svg'
 import food from '../assets/food.svg'
+import addToCart from '../assets/add-to-cart.svg'
 
 const Project = () => {
   const projectsRef = useNav('Projects')
@@ -21,19 +22,19 @@ const Project = () => {
         <Carousel variant="dark">
           <Carousel.Item interval={500000} className="project-flex">
             <div className="project-flex-left custom-w-50">
-              <p className="project-title">Pomodoro Clock</p>
-              <p className="project-desc">ReactJS, CSS</p>
+              <p className="project-title">Peri</p>
+              <p className="project-desc">ReactJS, Bootstrap, CSS, AWS</p>
               <button
                 className="colored-button"
                 onClick={() => {
-                  window.open('https://izanhuang.github.io/pomodoro-clock/')
+                  window.open('https://master.d6dalrasgqnrs.amplifyapp.com/')
                 }}
               >
                 View Project
               </button>
             </div>
             <div>
-              <img className="custom-w-50" src={clock} alt="Second slide" />
+              <img className="custom-w-50" src={addToCart} alt="First slide" />
             </div>
           </Carousel.Item>
           <Carousel.Item className="project-flex">
@@ -51,7 +52,7 @@ const Project = () => {
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={calculator} alt="Third slide" />
+            <img className="custom-w-50" src={calculator} alt="Second slide" />
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
@@ -68,7 +69,7 @@ const Project = () => {
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={voting} alt="First slide" />
+            <img className="custom-w-50" src={voting} alt="Third slide" />
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
@@ -85,7 +86,7 @@ const Project = () => {
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={food} alt="First slide" />
+            <img className="custom-w-50" src={food} alt="Fourth slide" />
           </Carousel.Item>
         </Carousel>
       </div>

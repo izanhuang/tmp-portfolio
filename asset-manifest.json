@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/tmp-portfolio/static/css/main.fbda710d.css",
-    "main.js": "/tmp-portfolio/static/js/main.53350872.js",
+    "main.js": "/tmp-portfolio/static/js/main.abd461a9.js",
     "static/js/787.a94036e3.chunk.js": "/tmp-portfolio/static/js/787.a94036e3.chunk.js",
     "static/media/resume.pdf": "/tmp-portfolio/static/media/resume.a043991cbd944dc1ac6f.pdf",
     "static/media/web-dev.svg": "/tmp-portfolio/static/media/web-dev.5ddec3bad4bee96f468ec984015e9012.svg",
     "static/media/food.svg": "/tmp-portfolio/static/media/food.0441ac92cdb9625ec47d34874349fea6.svg",
+    "static/media/add-to-cart.svg": "/tmp-portfolio/static/media/add-to-cart.90b6182dc0d80b6342ce26efd3858ab7.svg",
     "static/media/voting.svg": "/tmp-portfolio/static/media/voting.471c2fd655ff074e6e94f4c633dec1a7.svg",
     "static/media/clock.svg": "/tmp-portfolio/static/media/clock.3639c4ce35710afabd236f9a8add0ae2.svg",
     "static/media/calculator.svg": "/tmp-portfolio/static/media/calculator.bfe22f41cb5c5fc6727957ec9d8f44a2.svg",
@@ -15,11 +16,11 @@
     "static/media/purple-circle.svg": "/tmp-portfolio/static/media/purple-circle.7684f27658f15bbde3901ddcd6441d33.svg",
     "static/media/blue-circle.svg": "/tmp-portfolio/static/media/blue-circle.7c0770122876ee698ce281c9c9777ff7.svg",
     "main.fbda710d.css.map": "/tmp-portfolio/static/css/main.fbda710d.css.map",
-    "main.53350872.js.map": "/tmp-portfolio/static/js/main.53350872.js.map",
+    "main.abd461a9.js.map": "/tmp-portfolio/static/js/main.abd461a9.js.map",
     "787.a94036e3.chunk.js.map": "/tmp-portfolio/static/js/787.a94036e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbda710d.css",
-    "static/js/main.53350872.js"
+    "static/js/main.abd461a9.js"
   ]
 }

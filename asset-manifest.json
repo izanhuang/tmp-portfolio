@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/tmp-portfolio/static/css/main.fbda710d.css",
-    "main.js": "/tmp-portfolio/static/js/main.abd461a9.js",
+    "main.js": "/tmp-portfolio/static/js/main.de94536c.js",
     "static/js/787.a94036e3.chunk.js": "/tmp-portfolio/static/js/787.a94036e3.chunk.js",
-    "static/media/resume.pdf": "/tmp-portfolio/static/media/resume.a043991cbd944dc1ac6f.pdf",
+    "static/media/resume.pdf": "/tmp-portfolio/static/media/resume.a2a876b043da546e73ea.pdf",
     "static/media/web-dev.svg": "/tmp-portfolio/static/media/web-dev.5ddec3bad4bee96f468ec984015e9012.svg",
     "static/media/food.svg": "/tmp-portfolio/static/media/food.0441ac92cdb9625ec47d34874349fea6.svg",
     "static/media/add-to-cart.svg": "/tmp-portfolio/static/media/add-to-cart.90b6182dc0d80b6342ce26efd3858ab7.svg",
-    "static/media/voting.svg": "/tmp-portfolio/static/media/voting.471c2fd655ff074e6e94f4c633dec1a7.svg",
     "static/media/clock.svg": "/tmp-portfolio/static/media/clock.3639c4ce35710afabd236f9a8add0ae2.svg",
-    "static/media/calculator.svg": "/tmp-portfolio/static/media/calculator.bfe22f41cb5c5fc6727957ec9d8f44a2.svg",
+    "static/media/server.svg": "/tmp-portfolio/static/media/server.7e23aaa3b061ee2950adeaa126fd17b7.svg",
     "static/media/shapes.svg": "/tmp-portfolio/static/media/shapes.e608f62c7ccfa4e3c58e.svg",
+    "static/media/search.svg": "/tmp-portfolio/static/media/search.01d5385ec77d31a8e2dad4b00c7b89d7.svg",
     "static/media/wave.svg": "/tmp-portfolio/static/media/wave.d36b46b291d2b512db95.svg",
     "index.html": "/tmp-portfolio/index.html",
     "static/media/purple-circle.svg": "/tmp-portfolio/static/media/purple-circle.7684f27658f15bbde3901ddcd6441d33.svg",
     "static/media/blue-circle.svg": "/tmp-portfolio/static/media/blue-circle.7c0770122876ee698ce281c9c9777ff7.svg",
     "main.fbda710d.css.map": "/tmp-portfolio/static/css/main.fbda710d.css.map",
-    "main.abd461a9.js.map": "/tmp-portfolio/static/js/main.abd461a9.js.map",
+    "main.de94536c.js.map": "/tmp-portfolio/static/js/main.de94536c.js.map",
     "787.a94036e3.chunk.js.map": "/tmp-portfolio/static/js/787.a94036e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbda710d.css",
-    "static/js/main.abd461a9.js"
+    "static/js/main.de94536c.js"
   ]
 }

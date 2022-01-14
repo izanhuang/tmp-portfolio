@@ -26,11 +26,11 @@ const About = () => {
         <p>Here are a few technologies I&apos;ve been working with recently:</p>
         <ul className="techs">
           <li>JavaScript</li>
-          <li>Node.js</li>
           <li>Spring Boot</li>
-          <li>ReactJS</li>
-          <li>Java</li>
           <li>SQL</li>
+          <li>React</li>
+          <li>Java</li>
+          <li>AWS</li>
         </ul>
         <img className="circle" src={blueCircle} />
       </div>

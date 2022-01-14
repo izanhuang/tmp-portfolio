@@ -4,9 +4,9 @@ import './Page.css'
 import '../styles/Projects.css'
 import { Carousel, CarouselItem } from 'react-bootstrap'
 import clock from '../assets/clock.svg'
-import calculator from '../assets/calculator.svg'
-import voting from '../assets/voting.svg'
-import food from '../assets/food.svg'
+import project2svg from '../assets/search.svg'
+import project3svg from '../assets/server.svg'
+import project4svg from '../assets/food.svg'
 import addToCart from '../assets/add-to-cart.svg'
 
 const Project = () => {
@@ -23,7 +23,7 @@ const Project = () => {
           <Carousel.Item interval={500000} className="project-flex">
             <div className="project-flex-left custom-w-50">
               <p className="project-title">Peri</p>
-              <p className="project-desc">ReactJS, Bootstrap, CSS, AWS</p>
+              <p className="project-desc">React, Bootstrap, CSS, AWS</p>
               <button
                 className="colored-button"
                 onClick={() => {
@@ -39,37 +39,33 @@ const Project = () => {
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
-              <p className="project-title">JavaScript Calculator</p>
-              <p className="project-desc">ReactJS, CSS</p>
+              <p className="project-title">Movie Finder</p>
+              <p className="project-desc">React, Bootstrap, CSS, Firebase</p>
               <button
                 className="colored-button"
                 onClick={() => {
-                  window.open(
-                    'https://izanhuang.github.io/javascript-calculator/',
-                  )
+                  window.open('https://izanhuang.github.io/movie-finder-web/')
                 }}
               >
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={calculator} alt="Second slide" />
+            <img className="custom-w-50" src={project2svg} alt="Second slide" />
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
-              <p className="project-title">SBU Voting</p>
-              <p className="project-desc">ReactJS, CSS</p>
+              <p className="project-title">Pokeball</p>
+              <p className="project-desc">React, Java, Spring Boot, SQL, AWS</p>
               <button
                 className="colored-button"
                 onClick={() => {
-                  window.open(
-                    'https://sbuvoting.github.io/SBU-Voting-Collab-master/',
-                  )
+                  window.open('https://main.dwdi6tuvlu9ta.amplifyapp.com/')
                 }}
               >
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={voting} alt="Third slide" />
+            <img className="custom-w-50" src={project3svg} alt="Third slide" />
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
@@ -86,7 +82,7 @@ const Project = () => {
                 View Project
               </button>
             </div>
-            <img className="custom-w-50" src={food} alt="Fourth slide" />
+            <img className="custom-w-50" src={project4svg} alt="Fourth slide" />
           </Carousel.Item>
         </Carousel>
       </div>

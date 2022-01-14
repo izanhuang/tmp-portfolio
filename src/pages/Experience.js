@@ -36,12 +36,12 @@ const Experience = () => {
                       using ReactJS and AWS, for internal stakeholders.
                     </li>
                     <li>
-                      Implemented authorization and authentication by creating a
-                      custom UI with AWS Cognito
+                      Worked in an Agile environment to create an Instagram
+                      clone web app using React and Jest.
                     </li>
                     <li>
-                      Worked in an Agile environment to create an Instagram
-                      clone web app using ReactJS and Jest.
+                      Worked on and deployed a Java Spring Boot Backend
+                      utilizing authentication and jwt tokens.
                     </li>
                   </ul>
                 </Tab.Pane>

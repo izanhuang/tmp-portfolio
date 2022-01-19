@@ -60,10 +60,9 @@ const Contact = () => {
               <Form.Control
                 as="textarea"
                 placeholder="Message"
-                style={{ height: '200px' }}
                 id="Message"
                 name="message"
-                maxLength="3000"
+                maxLength="500"
                 required
               />
             </FloatingLabel>

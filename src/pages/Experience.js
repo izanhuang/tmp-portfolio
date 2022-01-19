@@ -27,7 +27,7 @@ const Experience = () => {
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <p className="no-margin-bottom">
-                    Full Stack Developer @ Cognizant
+                    Front End Developer @ Cognizant
                   </p>
                   <p>Aug 2021 - Present</p>
                   <ul>
@@ -40,8 +40,8 @@ const Experience = () => {
                       clone web app using React and Jest.
                     </li>
                     <li>
-                      Worked on and deployed a Java Spring Boot Backend
-                      utilizing authentication and jwt tokens.
+                      Created and deployed a REST API with Java Spring Boot and
+                      MYSQL utilizing JWT and BCrypt.
                     </li>
                   </ul>
                 </Tab.Pane>

@@ -5,8 +5,8 @@ import '../styles/Projects.css'
 import { Carousel, CarouselItem } from 'react-bootstrap'
 import clock from '../assets/clock.svg'
 import project2svg from '../assets/search.svg'
-import project3svg from '../assets/server.svg'
-import project4svg from '../assets/food.svg'
+import project3svg from '../assets/social.svg'
+import project4svg from '../assets/server.svg'
 import addToCart from '../assets/add-to-cart.svg'
 
 const Project = () => {
@@ -23,7 +23,9 @@ const Project = () => {
           <Carousel.Item interval={500000} className="project-flex">
             <div className="project-flex-left custom-w-50">
               <p className="project-title">Peri</p>
-              <p className="project-desc">React, Bootstrap, CSS, AWS</p>
+              <p className="project-desc">
+                React, TypeScript, Bootstrap, CSS, Stripe API, AWS
+              </p>
               <button
                 className="colored-button"
                 onClick={() => {
@@ -40,7 +42,9 @@ const Project = () => {
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
               <p className="project-title">Movie Finder</p>
-              <p className="project-desc">React, Bootstrap, CSS, Firebase</p>
+              <p className="project-desc">
+                React, Bootstrap, CSS, OMDb API, Firebase
+              </p>
               <button
                 className="colored-button"
                 onClick={() => {
@@ -54,12 +58,12 @@ const Project = () => {
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
-              <p className="project-title">Pokeball</p>
-              <p className="project-desc">React, Java, Spring Boot, SQL, AWS</p>
+              <p className="project-title">Facebook Clone</p>
+              <p className="project-desc">React, CSS, Firebase</p>
               <button
                 className="colored-button"
                 onClick={() => {
-                  window.open('https://main.dwdi6tuvlu9ta.amplifyapp.com/')
+                  window.open('https://github.com/izanhuang/facebook-clone')
                 }}
               >
                 View Project
@@ -69,14 +73,12 @@ const Project = () => {
           </Carousel.Item>
           <Carousel.Item className="project-flex">
             <div className="project-flex-left custom-w-50">
-              <p className="project-title">Food with Friends</p>
-              <p className="project-desc">Java, Firebase</p>
+              <p className="project-title">Pokeball</p>
+              <p className="project-desc">Java, Spring Boot, SQL, AWS</p>
               <button
                 className="colored-button"
                 onClick={() => {
-                  window.open(
-                    'https://play.google.com/store/apps/details?id=com.hackhealth.foodwithfriends',
-                  )
+                  window.open('https://main.dwdi6tuvlu9ta.amplifyapp.com/')
                 }}
               >
                 View Project

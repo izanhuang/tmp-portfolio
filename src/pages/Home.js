@@ -14,20 +14,20 @@ const Home = () => {
           <p>Hi, my name is</p>
 
           <h1 className="name">Izan Huang.</h1>
-          <h4 className="name-subtitle">I design and build simple things.</h4>
+          {/* <h4 className="name-subtitle">I design and build simple things.</h4> */}
           <p className="name-subtitle-sub">
-            I'm a full stack developer specializing in front end technologies
-            with experience in creating prototypes.
+            I'm a front-end developer with an interest in design and cloud
+            platforms.
           </p>
           <button
             className="white-button intro-button"
             onClick={() => {
               document
-                .getElementById('projectsContainer')
+                .getElementById('aboutContainer')
                 .scrollIntoView({ behavior: 'smooth' })
             }}
           >
-            Check out my projects!
+            <i className="arrow down"></i>
           </button>
         </div>
         <div className="image">

@@ -1,15 +1,29 @@
 section {
-  height: 100vh !important;
+  height: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   position: relative;
+  padding-top: 80px;
+}
+
+#homeContainer {
+  padding: 0;
+}
+
+#aboutContainer {
+  padding-bottom: 80px;
+}
+
+#contactContainer {
+  height: 90vh;
 }
 
 .section-container {
   height: auto;
   margin: auto;
   position: relative;
+  margin-top: 80px;
   /* background-color: red; */
 }
 

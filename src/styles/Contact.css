@@ -22,7 +22,7 @@
 }
 
 .icons svg:hover {
-  transform: translateY(-2.5px) scale(1.05);
+  transform: translateY(-2.5px) scale(1.02);
 }
 
 #form {

@@ -32,16 +32,20 @@ const Experience = () => {
                   <p>Aug 2021 - Present</p>
                   <ul>
                     <li>
-                      Developed an e-commerce web app with CRUD functionality
-                      using ReactJS and AWS, for internal stakeholders.
+                      Delivered responsive and user-friendly websites as
+                      internal projects utilizing React.
                     </li>
                     <li>
-                      Worked in an Agile environment to create an Instagram
-                      clone web app using React and Jest.
+                      Implemented production-ready features including infinite
+                      scroll, login, and registration.
                     </li>
                     <li>
-                      Created and deployed a REST API with Java Spring Boot and
-                      MYSQL utilizing JWT and BCrypt.
+                      Wrote tests and debugged to verify that code in
+                      development functioned as expected.
+                    </li>
+                    <li>
+                      Maintained services and provided production support on
+                      internal API for client, Discover Financial Services LLC.
                     </li>
                   </ul>
                 </Tab.Pane>
@@ -51,14 +55,17 @@ const Experience = () => {
                   </p>
                   <p>Feb 2021 - July 2021</p>
                   <ul>
-                    <li>Designed and created prototypes on Figma.</li>
                     <li>
-                      Wrote and maintained a responsive custom sub-theme in
-                      Drupal using Lando, Gulp, and Sass.
+                      Designed mockups and created a prototype to revamp and
+                      modernize the website using Figma.
                     </li>
                     <li>
-                      Engaged with the web development team to establish
-                      milestones, goals, track progress, and resolve conflicts.
+                      Led and implemented the design into a responsive custom
+                      sub-theme utilizing Sass.
+                    </li>
+                    <li>
+                      Collaborated with the web development team to establish
+                      tasks, track progress, and meet goals.
                     </li>
                   </ul>
                 </Tab.Pane>

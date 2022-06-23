@@ -14,25 +14,26 @@ const About = () => {
         <img className="circle" id="purpleCircle" src={purpleCircle} />
         <p className="section-title">About Me</p>
         <p>
-          My pronouns are she/her, and I am fascinated with all the different
-          ways data and interfaces are used to create user views. My background
-          in information technology, combined with my interest in programming
-          and design, pushes me to think outside the box and be creative.
+          My pronouns are she/her, and I am a self-taught front-end developer. I
+          graduated from Stony Brook University where I studied Information
+          Systems. Before my last semester, I decided to pursue web development
+          and found my passion! Fascinated with all the different ways data and
+          interfaces are used to create user views.
         </p>
         <p>
-          Currently, I&apos;m building and incorportating backend technologies
-          into my personal projects!
+          Currently, I&apos;m learning new technologies and improving my code
+          quality!
         </p>
         <p>Here are a few technologies I&apos;ve been working with recently:</p>
         <ul className="techs">
           <li>JavaScript</li>
-          <li>Spring Boot</li>
-          <li>SQL</li>
-          <li>React</li>
+          <li>Firebase</li>
           <li>Java</li>
+          <li>React</li>
           <li>AWS</li>
+          <li>SQL</li>
         </ul>
-        <img className="circle" src={blueCircle} />
+        <img className="circle" id="blueCircle" src={blueCircle} />
       </div>
     </section>
   )
